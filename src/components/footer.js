@@ -5,6 +5,7 @@ import instagram from '../assets/instagram.svg'
 import linkedin from '../assets/linkedin.svg'
 import { Link } from "gatsby"
 //import PropTypes from "prop-types"
+import '@mdi/font/css/materialdesignicons.min.css';
 const Footer = (props) => {
   return <footer className='footerCont'>
     <div className='logo'>
@@ -39,7 +40,7 @@ const Footer = (props) => {
     </div>
     <div className='cp'>
       <p>
-      &copy; 2020 influensure
+      <i className='mdi mdi-copyright'/> 2020 influensure
       </p>
     </div>
   </footer>

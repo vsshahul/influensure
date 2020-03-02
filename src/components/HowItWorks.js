@@ -1,14 +1,14 @@
 import React from "react"
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 import leftDots from '../assets/leftDots.svg'
 import logoSymbol from '../assets/logoSymbol.svg'
 import rightSpeaker from '../assets/rightSpeaker.svg'
 import leftSpeaker from '../assets/leftSpeaker.svg'
 
-
 import f1 from '../assets/form_1.png'
 import f2 from '../assets/form_2.png'
 import f3 from '../assets/form_3.png'
+import star from "../assets/star.svg";
 
 const HowItWorks = () => (
   <>
@@ -84,6 +84,38 @@ const HowItWorks = () => (
 
   </div>
 
+  <div className='ratings'>
+    <div className='rating'>
+      <div className='values'>
+        +20k
+      </div>
+      <Link className='link' to='./'>
+        Profile & Posts
+      </Link>
+    </div>
+
+    <div className='rating'>
+      <div className='values'>
+        <div>
+          <img src={star} alt='star' />
+          3.5
+        </div>
+      </div>
+      <Link className='link' to='./'>
+      Average satisfaction rating received
+      </Link>
+    </div>
+
+    <div className='rating'>
+      <div className='values'>
+        +1k
+      </div>
+      <Link className='link' to='./'>
+      Cumulative influencer reach
+      </Link>
+    </div>
+
+  </div>
   
   </>
 )
