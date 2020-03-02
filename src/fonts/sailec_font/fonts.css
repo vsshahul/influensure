@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'sailecMedium';
+  src: url(sai_medium.otf) format("woff");
+}
+@font-face {
+  font-family: 'sai_light';
+  src: url(sai_light.otf) format("woff");
+}

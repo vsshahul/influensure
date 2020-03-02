@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="794" viewBox="0 0 1440 794">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#201D5E" d="M0 0h1440v794H0z"/>
+        <g stroke="#B2D6E2" stroke-dasharray="0,31.20000076293945" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.8" opacity=".135">
+            <path d="M1308 323v200M1335.5 323v200M1357.5 323v200M1379.5 323v200M1401.5 323v200M1423.5 323v200"/>
+        </g>
+        <g stroke="#B2D6E2" stroke-dasharray="0,31.20000076293945" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.8" opacity=".135">
+            <path d="M13.5 167v140M35.5 167v140M57.5 167v140M79.5 167v140"/>
+        </g>
+        <path stroke="#FF8896" stroke-dasharray="8" d="M0 593.789c85.924 136.197 216.382 198.867 391.376 188.008C653.866 765.51 620.334 535 852.679 535c149.601 0 276.538 166.387 337.321 194.056" opacity=".297"/>
+        <path stroke="#FF8896" stroke-dasharray="8" d="M1190 593.789c-85.924 136.197-216.382 198.867-391.376 188.008C536.134 765.51 569.666 535 337.321 535 187.72 535 60.783 701.387 0 729.056" opacity=".297"/>
+        <g transform="translate(242 443)">
+            <circle cx="5" cy="5" r="5" stroke="#FFF"/>
+            <circle cx="24" cy="5" r="5" fill="#FFF"/>
+            <circle cx="43" cy="5" r="5" fill="#FF9494"/>
+        </g>
+        <g opacity=".322" transform="rotate(142 426.094 396.072)">
+            <circle cx="14.5" cy="14.5" r="14.5" stroke="#FFF" stroke-width="1.584"/>
+            <path fill="#FF8896" d="M25.338 15.406c-.46 5.582-5.137 9.969-10.838 9.969-5.7 0-10.377-4.387-10.838-9.969h21.676z"/>
+        </g>
+        <g opacity=".322" transform="rotate(-23 1497.683 -195.228)">
+            <circle cx="14.5" cy="14.5" r="14.5" stroke="#FFF" stroke-width="1.584"/>
+            <path fill="#FF8896" d="M25.338 15.406c-.46 5.582-5.137 9.969-10.838 9.969-5.7 0-10.377-4.387-10.838-9.969h21.676z"/>
+        </g>
+    </g>
+</svg>
