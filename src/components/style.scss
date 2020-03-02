@@ -22,7 +22,6 @@ button{
 //Global
 .btnCont{
   display: flex;
-  padding-top: 43px;
 }
 .PrimaryBtn{
   margin-right: 30px;
@@ -43,10 +42,6 @@ button{
   border: solid 1px #ffffff;
 }
 //
-.App{
-  width: 1280px;
-  margin: auto;
-}
 .bg_blue{
   background-image: url('../assets/blueBg.svg');
   height: 794px;
@@ -63,6 +58,8 @@ button{
 //HEADER
 
 .header{
+  margin: auto;
+  width: 1280px;
   height: 126px;
   display: flex;
   align-items: center;
@@ -122,7 +119,9 @@ button{
     font-family: $primaryfont;
   }
  
-
+  .btnCont{
+    padding-top: 43px;
+  }
   .gridImgCont{
     padding-top: 60px;
     width: 100%;
@@ -139,6 +138,7 @@ button{
 }
 
 .checkOutCont{
+  margin: auto;
   width: 1280px;
   height: 449px;
   object-fit: contain;
@@ -147,7 +147,6 @@ button{
   align-items: center;
   justify-content: center;
   background-image: url(../assets/Bg_checkout.svg);
- 
 
   h2{
     font-family: $primaryfont ;
@@ -168,6 +167,116 @@ button{
     padding-top: 69px;
   }
 }
+
+//How it Works Section
+
+.headerCont{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  .dotsCont{
+    img{
+      height: 200PX;
+      width: 200px;
+    }
+  }
+
+  .header{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 26px;
+    img{
+      padding-bottom: 19px ;
+    }
+
+    p{
+      font-family: $primaryfont;
+      font-size: 30px;
+      font-weight: bold;
+      color: #201d5e;
+    }
+  }
+
+  .speakerCont{
+    width: 278.4px;
+    img{
+      width: inherit ;
+      height: 342px;
+      position: absolute;
+      bottom: -31.7px;
+      right: 0;
+      
+      object-fit: contain;
+    }
+  }
+}
+
+//Content 
+.content{
+  margin: auto;
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .textCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3{
+      font-family: $primaryfont;
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 0.43px;
+      color: #ff8896;
+      padding-bottom: 30px;
+
+    }
+    h2{
+      font-family: $primaryfont;
+      font-size: 26px;
+      font-weight: bold;
+      color: #201d5e;
+      padding-bottom: 46px;
+    }
+    p{
+      width: 415px;
+      height: 99px;
+      opacity: 0.95;
+      font-family: $primaryfont_light;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 1.57;
+      letter-spacing: 0.2px;
+    }
+  }
+  .imgCont{
+    img{
+      display: block;
+    }
+  }
+}
+
+.content:nth-child(even) {
+  .textCont{
+    order: 2;
+  }
+  .imgCont{
+    order: 1;
+    position: relative;
+    left: -70px;
+  }
+}
+
+.designCont{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -85px;
+}
+
 //Footer
 .footerCont{
   width: 100%;

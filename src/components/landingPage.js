@@ -1,6 +1,7 @@
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import React from "react"
 import './style.scss'
+import HowItWorks from './HowItWorks'
 import gridImg from '../assets/gridImg.png'
 const LandingPage = () => (
   <>
@@ -15,6 +16,9 @@ const LandingPage = () => (
       <img src={gridImg} alt='Influencers'/>
     </div>
   </div>
+
+  <HowItWorks />
+
   <div className='checkOutCont'>
     <h2>Ready to check it out?</h2>
     <h4>Get started for free, no strings attached</h4>
